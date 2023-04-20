@@ -53,6 +53,7 @@ public class WakeUpSystemIntel {
         String password = "";
         boolean repeat = true;
 
+        // General print block
         System.out.println("Welcome to the Intel Wake-Up Program. Please follow the instructions below.")
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter Username: ");
@@ -61,6 +62,7 @@ public class WakeUpSystemIntel {
         password = scan.nextLine();
         System.out.println("Type exit to exit the program.");
 
+        // Loop for multiple machines
         while (repeat) {
             System.out.println("Enter IP Address: ");
             ipAddress = scan.nextLine();
