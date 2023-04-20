@@ -70,7 +70,7 @@ public class WakeUpSystemIntel {
                 wakeSystem(ipAddress, username, password);
             }
         }
-        System.out.println("Thank you for using the UST Intel Wake-Up Program.");
+        System.out.println("Thank you for using the Intel Wake-Up Program.");
         scan.close();
     }
 }
