@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "AMT.h" // Include the Intel AMT SDK header file
+#include <AMT.h>
 
 using namespace std;
 
