@@ -18,13 +18,16 @@ To build the program, follow these steps:
    g++ main.cpp -o amt-wake-up -lamt-sdk
 Make sure to link against the Intel AMT SDK libraries (-lamt-sdk) properly. Adjust the command based on your build environment.
 
-Running the Program
+## Running the Program
+
 To run the program, execute the generated binary:
-./amt-wake-up
+   
+   ./amt-wake-up
+
 The program will prompt you to enter the IP address, username, and password for the target Intel AMT-enabled computer. Once you provide the required information, the program will attempt to connect to the computer and send a wake-on-LAN command to wake it up.
 
-Contributing
+## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License.
