@@ -15,7 +15,9 @@ To build the program, follow these steps:
 1. Open a terminal or command prompt.
 2. Navigate to the project directory.
 3. Compile the program using a C++ compiler:
+
    g++ main.cpp -o amt-wake-up -lamt-sdk
+   
 Make sure to link against the Intel AMT SDK libraries (-lamt-sdk) properly. Adjust the command based on your build environment.
 
 ## Running the Program
